@@ -1,0 +1,79 @@
+header img {
+	padding-top: .2em;
+	width: 200px;
+}
+
+.slider {
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 135px;
+  padding: 10px;
+}
+
+.dropdown {
+  float: right;
+  margin-top: 23px;
+  color: $primary-color;
+
+}
+
+.dropdown2 {
+  float: right;
+  margin-top: 23px;
+  margin-right: -245px;
+  color: $primary-color;
+
+}
+
+.search {
+  float: right;
+  margin-top: 23px;
+  margin-right: -273px;
+  color: $primary-color;
+
+}
+
+.container #top-image {
+	position: absolute;
+	top: 5em;
+	right: 0;
+}
+
+.container #image-text {
+	position: absolute;
+	top: 8em;
+	color: $secondary-color;
+	font-size: 1.5em;
+  left: 12em;
+}
+
+.container #image-brain {
+	position: absolute;
+	top: 10em;
+	right: 13em;
+	width: 250px;
+}
+
+.container #image-btn {
+	position: absolute;
+	top: 21em;
+	left: 35em;
+	padding: 1em;
+	border: 2px solid $secondary-color;
+	border-radius: 8px;
+  background-color: $primary-color;
+
+	color: $secondary-color;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.container #image-btn:hover {
+	cursor: pointer;
+  background-color: darken($primary-color, 10);
+}
